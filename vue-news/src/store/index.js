@@ -7,6 +7,7 @@ export const store = new createStore({
     news: [],
     ask: [],
     jobs: [],
+    user: {},
   },
   getters: {
     fetchedAsk(state) {
