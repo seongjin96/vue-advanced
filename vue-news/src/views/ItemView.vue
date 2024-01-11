@@ -1,7 +1,7 @@
 <template>
   <div>
-    <p>{{ this.itemInfo.title }}</p>
-    <div>{{ this.itemInfo.content }}</div>
+    <p>{{ itemInfo.title }}</p>
+    <div>{{ itemInfo.content }}</div>
   </div>
 </template>
 
