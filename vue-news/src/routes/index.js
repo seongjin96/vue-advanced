@@ -28,11 +28,11 @@ export const router = createRouter({
     },
     {
       path: '/user/:id',
-      component: UserView
+      component: UserView,
     },
     {
-      path: '/item',
-      component: ItemView
+      path: '/item/:id',
+      component: ItemView,
     },
   ]
 });
