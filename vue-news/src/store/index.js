@@ -9,6 +9,7 @@ export const store = new createStore({
     jobs: [],
     user: {},
     item: {},
+    list: [],
   },
   getters: {
     fetchedAsk(state) {
