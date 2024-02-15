@@ -11,5 +11,8 @@ export default {
             .catch((error) => {
                 console.log(error);
             });
+    },
+    mounted() {
+        bus.emit('end:spinner');
     }
 }

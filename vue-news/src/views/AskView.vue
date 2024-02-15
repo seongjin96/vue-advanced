@@ -14,7 +14,10 @@ export default {
   components: {
     ListItem,
   },
-  mixins: [ListMixin]
+  mounted() {
+    bus.emit('end:spinner');
+  }
+  // mixins: [ListMixin]
   // computed: {
   //   ...mapGetters(
   //     // {
