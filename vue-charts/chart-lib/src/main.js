@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import ChartPlugin from "@/plugins/ChartPlugin";
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(ChartPlugin);
+app.mount('#app');

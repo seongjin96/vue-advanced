@@ -3,13 +3,13 @@
 </template>
 
 <script>
-  import { Chart, registerables } from "chart.js";
-  Chart.register(...registerables)
+  // import { Chart, registerables } from "chart.js";
+  // Chart.register(...registerables)
 
   export default {
     mounted() {
       // const ctx = document.getElementById("barChart");
-      new Chart(this.$refs.barChart, {
+      new this.$_Chart(this.$refs.barChart, {
         type: "bar",
         labels: "# of Votes",
         data: {

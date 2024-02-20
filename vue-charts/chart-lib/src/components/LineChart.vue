@@ -9,8 +9,8 @@
   export default {
     mounted() {
       // const ctx = document.getElementById('lineChart').getContext('2d');
-      const ctx = this.$refs.lineChart.getContext('2d');
-      new Chart(ctx, {
+      // const ctx = this.$refs.lineChart.getContext('2d');
+      new this.$_Chart(this.$refs.lineChart.getContext('2d'), {
         // The type of chart we want to create
         type: 'line',
 
